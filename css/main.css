@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	background-color: bisque;
+        }
+
+#main {
+	width: 80%;
+	margin: 60px auto;
+}
+nav {
+	position: sticky;
+	top: 0;
+	width: 100%;
+	background-color: #34344c;
+	overflow: auto;
+	}
+
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+	
+}
+nav ul li {
+    display: inline;
+	margin: 0px 30px;
+   	font-size: 1.75em;
+	text-align: center;
+}
+
+a {
+   	text-decoration: none;
+    color: #999;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	margin-left: 25px;
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.2em;
+    font-family: "Georgia", Serif;
+}
+
+
+.underline {
+	color: purple;
+	padding: 0px 2px;
+	background-color: lightgray;
+	}
+
+.indent {
+	padding-left: 50px;
+}
+
+.indent2 {
+	padding-left: 100px;
+}
+
+.block {
+	margin: 50px 0px;
+}
+
+.context {
+	color: darkorange;
+}
+
+.index {
+	list-style: none;
+}
