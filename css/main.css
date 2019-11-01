@@ -30,17 +30,20 @@ nav ul li {
 	margin: 0px 30px;
    	font-size: 1.75em;
 	text-align: center;
+	font-family: "Bookman", Serif;
 }
 
 ul.assignments {
 	list-style-type: none;
 	font-size: 1.5em;
+	font-family: "Bookman", Serif;
 	padding: 1;
 }
 
 
 ul.preface {
 	font-size: 1.4em;
+	font-family: "Bookman", Serif;
 	padding: 0px 100px 0px;
 }
 
