@@ -45,6 +45,11 @@ ul.preface {
 	font-family: "Bookman", Serif;
 	padding: 0px 100px 0px;
 }
+ul.lists {
+	font-size: 1.4em;
+	font-family: "Bookman", Serif;
+	padding: 0px 100px 0px;
+}
 
 a {
    	text-decoration: none;
