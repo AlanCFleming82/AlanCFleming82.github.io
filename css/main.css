@@ -117,6 +117,11 @@ main {
   [aria-expanded] rect {
 	fill: currentColor;
   }
+
+  h3 {
+    font-size: 3em;
+	font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	}
    
 p {
     font-size: 1.5em;
