@@ -19,9 +19,11 @@ nav {
 	}
 footer {
 	width:80%;
-	margin: 60px auto;
+	margin: 40px auto;
 	font-family:'Helvetica', 'Arial', 'Sans-Serif';
 	font-size: .75em;
+	color: DarkGrey;
+	text-align: center;
 }
 nav ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
