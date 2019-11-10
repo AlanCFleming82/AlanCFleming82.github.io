@@ -18,6 +18,7 @@ nav {
 	overflow: auto;
 	}
 footer {
+	width:80%;
 	font-family:'Helvetica', 'Arial', 'Sans-Serif';
 	font-size: .75em;
 }
