@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	background-color: BurlyWood;
+        }
+
+main {
+	width: 80%;
+	margin: 60px auto;
+}
+nav {
+	position: sticky;
+	top: 0;
+	width: 100%;
+	background-color: #34344c;
+	overflow: auto;
+	}
+footer {
+	width:80%;
+	margin: 40px auto;
+	font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	font-size: .75em;
+	color: DimGrey;
+	text-align: center;
+}
+nav ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+	
+}
+nav ul li {
+    display: inline;
+	margin: 0px 30px;
+   	font-size: 1.75em;
+	text-align: center;
+}
+
+ul.assignments {
+	list-style-type: none;
+	font-size: 1.5em;
+	font-family: "Bookman", Serif;
+	padding: 1;
+}
+
+ul.preface {
+	font-size: 1.4em;
+	font-family: "Bookman", Serif;
+	padding: 0px 100px 0px;
+}
+
+ul.posts {
+	font-size: 1.4em;
+	font-family: "Bookman", Serif;
+	padding: 0px 100px 0px;
+}
+
+a {
+   	text-decoration: none;
+    color: indigo;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.nav {
+   	text-decoration: none;
+    color: #999;
+}
+
+
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	margin-left: 25px;
+}
+
+main {
+	border-width: 2px 0;
+	border-style: solid;
+  }
+  
+  main h2 {
+	margin: 0;
+  }
+  
+  main > div + h2 {
+	border-top: 2px solid;
+  }
+  
+  h2 button {
+	all: inherit;
+	border: 0;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 0.5em 0;
+  }
+  
+  h2 button:focus svg {
+	outline: 2px solid;
+  }
+  
+  button svg {
+	height: 1em;
+	margin-left: 0.5em;
+  }
+  
+  [aria-expanded="true"] .vert {
+	display: none;
+  }
+  
+  [aria-expanded] rect {
+	fill: currentColor;
+  }
+
+  h3 {
+    font-size: 2em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+   
+p {
+    font-size: 1.5em;
+    line-height: 1.2em;
+    font-family: "Bookman", Serif;
+}
+
+
+.underline {
+	color: FireBrick;
+	padding: 0px 2px;
+	background-color: NavajoWhite;
+	}
+
+.indent {
+	padding-left: 50px;
+}
+
+.indent2 {
+	padding-left: 100px;
+}
+
+.block {
+	margin: 50px 0px;
+}
+
+.context {
+	font-style: italic;
+}
+
+.index {
+	list-style: none;
+}
