@@ -19,6 +19,7 @@ nav {
 	}
 footer {
 	width:80%;
+	margin: 60px auto;
 	font-family:'Helvetica', 'Arial', 'Sans-Serif';
 	font-size: .75em;
 }
