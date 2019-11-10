@@ -4,11 +4,12 @@ title: News
 ---
 	<h3>{{ page.title }}</h3>
 
-	<p> Check back regularly for updates or follow the Latin Workbook on twitter 
-		(<a href="https://twitter.com/LatinWorkbook" target="_blank">@LatinWorkbook</a>).</p>
 	<ul class="posts">
 
 	  {% for post in site.posts %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
+
+	<p> Check back regularly for updates or follow the Latin Workbook on Twitter 
+		(<a href="https://twitter.com/LatinWorkbook" target="_blank">@LatinWorkbook</a>).</p>
