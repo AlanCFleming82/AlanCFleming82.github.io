@@ -17,8 +17,12 @@ nav {
 	background-color: #34344c;
 	overflow: auto;
 	}
-
-nav ul, footer ul {
+footer {
+	width:100%;
+	margin-top: 30px;
+	font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	font-size: .75em;
+nav ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
@@ -38,7 +42,6 @@ ul.assignments {
 	font-family: "Bookman", Serif;
 	padding: 1;
 }
-
 
 ul.preface {
 	font-size: 1.4em;
