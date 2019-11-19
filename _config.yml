@@ -1,3 +1,4 @@
 name: Alan Fleming, Latin Workbook
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+description: This workbook introduces intermediate and advanced concepts of grammar through a variety of exercises and sentences.
