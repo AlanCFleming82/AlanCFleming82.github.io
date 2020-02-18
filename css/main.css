@@ -155,3 +155,8 @@ p {
 .index {
 	list-style: none;
 }
+
+.tab { 
+       display:inline-block; 
+       margin-left: 150px; 
+}
