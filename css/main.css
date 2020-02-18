@@ -157,6 +157,9 @@ p {
 }
 
 .tab { 
+	font-size: 1.5em;
+    line-height: 1.2em;
+    font-family: "Bookman", Serif;
        display:inline-block; 
        margin-left: 200px; 
 }
